@@ -1,6 +1,8 @@
 let number = 1;
 
 console.log(number);
-console.log(number+=2);
+number+=2;
 console.log(number);
-console.log(number-=2);
+console.log(number);
+number-=2;
+console.log(number);
