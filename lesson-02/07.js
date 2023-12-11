@@ -7,5 +7,5 @@ let passportMarried = {
     }
 };
 let passportMarried2 = {...passportMarried, married:true, address: {...passportMarried.address}};
-console.log(passportMarried.married)
-console.log(passportMarried2.married)
+console.log(JSON.stringify(passportMarried))
+console.log(JSON.stringify(passportMarried2))
