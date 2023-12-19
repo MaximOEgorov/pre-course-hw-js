@@ -4,4 +4,4 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
-console.log(numbers.map(arr=>(arr.filter(num=>(num%2!=0)))));
+console.log(numbers.map(arr=>(arr.filter (num=>(num % 2 !=0)))));
